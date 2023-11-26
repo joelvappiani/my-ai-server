@@ -1,0 +1,15 @@
+{
+  "name": "my-ai",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-llama-cpp": "^2.8.0"
+  }
+}
